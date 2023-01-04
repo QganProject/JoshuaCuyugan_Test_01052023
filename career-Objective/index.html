@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Task List 2021</title>
+
+	<link rel="stylesheet" href="careerObjective.css" />
+</head>
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>J</span>oshua <span>C</span>uyugan</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="/Index/index.html" data-after="Home">Home</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <section id="goals">
+	<div class="goals-container">
+		<div class="goalsContent">
+			<h1 class="section-title">Career Objective</h1>
+			  <button id="login-show">New Goal</button>
+			  <main>
+				  <section class="task-list">
+					  <h2>Tasks</h2>
+					  <div id="tasks">
+						  <!-- <div class="task">
+							  <div class="content">
+								  <input 
+									  type="text" 
+									  class="text" 
+									  value="A new task"
+									  readonly>
+							  </div>
+							  <div class="actions">
+								  <button class="edit">Edit</button>
+								  <button class="delete">Delete</button>
+							  </div>
+						  </div> -->
+					  </div>
+				  </section>
+			  </main>
+		</div>
+		<div id="login-modal">
+			<div class="modal">
+			  <div class="top-form">
+				<div class="close-modal"> &#10006;</div>
+				<h2>New Goal</h2>
+			  </div>
+			  <div class = "popup-form">
+				  <div class="form-element">
+					  <label for="goal">Goal</label>
+					  <input type="text" id="goal" placeholder="Enter Your Goal Name">
+				  </div>
+				  <div class="form-element">
+					  <label for="description">Description</label>
+					  <input type="text" id="description" placeholder="Describe Your Goal">
+				  </div>
+				  <div class="form-element">
+					  <label for="reason">Reason</label>
+					  <input type="text" id="reason" placeholder="Reason for this Goal">
+				  </div>
+				  <div class="form-element">
+					  <label for="targetDate">Target Date</label>
+					  <input type="date" id="targetDate">
+				  </div>
+				  <div class="form-element">
+					  <label for="completedDate">Completed Date</label>
+					  <input type="date" id="completedDate">
+				  </div>
+				  <div class="form-element">
+					  <button id="addgoal">Add Goal</button>
+				  </div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+
+  </section>
+
+	
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>J</span>oshua <span>C</span>uyugan</h1>
+      </div>
+      <h2>Thank You!</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/joshua-cuyugan/"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2022 Joshua Cuyugan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Welcome to My Portfolio</title>
+    <link rel="stylesheet" href="auth-style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="" class="form">
+        <div class="input-group">
+          <input type="text" name="loginUser" id="userName" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="input-group">
+          <input type="password" name="loginPassword" id="userPass" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <button class="submit-btn" id="submit-btn">Login</button>
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+    <script>
+      $(function() {
+        $('#submit-btn').click(function(e) {
+          e.preventDefault();
+          var username = document.getElementById("userName").value;
+          var password = document.getElementById("userPass").value;
+          if(username=='admin' && password=='123'){
+            window.location.assign("/Index/index.html");
+            alert("Login Successful");
+          }
+          else{
+            alert("invalid Information")
+            return false;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
