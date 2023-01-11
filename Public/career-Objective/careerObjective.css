@@ -300,6 +300,11 @@ input, button {
 	outline: none;
 }
 
+#desc {
+ width: fit-content;
+}
+
+
 #new-task-input {
 	flex: 1 1 0%;
 	background-color: var(--light);

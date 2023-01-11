@@ -1,0 +1,31 @@
+{
+  "name": "joshuacuyugan_test_01052023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Public/index.js",
+  "scripts": {
+    "start": "node ./Public/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QganProject/JoshuaCuyugan_Test_01052023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QganProject/JoshuaCuyugan_Test_01052023/issues"
+  },
+  "homepage": "https://github.com/QganProject/JoshuaCuyugan_Test_01052023#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "knex": "^2.4.0",
+    "moment": "^2.29.4",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  }
+}
